@@ -1,47 +1,38 @@
-KISSY - An Enjoyable JavaScript Library
-=======================================
+# KISSY
 
- * Source: <http://github.com/kissyteam/kissy>
- * Docs: <http://kissyteam.github.com/>
- * Changelog: <http://github.com/kissyteam/kissy/blob/master/CHANGELOG.md>
- * License: <http://github.com/kissyteam/kissy/blob/master/LICENSE.md>
+> A Powerful Collection Of Modules
 
+[![kissy](https://nodei.co/npm/kissy.png)](https://npmjs.org/package/kissy)
+[![NPM downloads](http://img.shields.io/npm/dm/kissy.svg)](https://npmjs.org/package/kissy)
+[![Dependency Status](https://gemnasium.com/kissyteam/kissy.png)](https://gemnasium.com/kissyteam/kissy)
+[![Bower version](https://badge.fury.io/bo/kissy.svg)](http://badge.fury.io/bo/kissy)
 
- Vision
---------
-小巧灵活，简洁实用，使用起来让人感觉愉悦。
+## Vision
 
-    Keep It
-        Simple & Stupid, Short & Sweet, Slim & Sexy...
-    Yeah!
+模块化，跨终端，高扩展性，组件齐全，接口一致，自主开发，适合多种应用场景
 
+## Build
 
- Structure
------------
- - build:         构建好的发布文件
- - docs:          API 文档
- - src:           源码、测试等开发资源
- - tools:         打包压缩等自动化工具
+```
+npm install bower -g
+npm install
+bower install
+npm run build
+```
 
+## Build your own modules
 
- Convention
-------------
-原则：尽量避免潜在冲突，同时力求精简短小和见名知意。
+https://github.com/kissyteam/kissy/blob/master/build-your-own-modules.md
 
- - 全局变量：       g_ks_comp_xxx        比如：g_ks_suggest_callback
- - class/id 命名： ks-comp[-xxx]        比如：ks-editor-toolbar-item
- - data 属性命名：  data-ks-comp[-xxx]   比如：data-ks-suggest
- - hook 规范：     KS_Comp              比如：KS_Switchable
+## Modules
 
-注意：为了避免太冗长，在保持清晰和无潜在冲突的情况下，可以打破原则，比如：
-    <div class="KS_Widget" data-widget-type="Tabs" data-widget-config="{...}">
+[http://kissyteam.github.io/badgeboard/](http://kissyteam.github.io/badgeboard/)
 
+## Questions?
 
-Questions?
-----------
-
+ - Blog: <http://blog.kissyui.com>
+ - Docs: <http://docs.kissyui.com>
  - Bug：<http://github.com/kissyteam/kissy/issues>
- - 邮件：<kissyteam@gmail.com>
+ - Email：<kissyteam@gmail.com>
  - Twitter: <http://twitter.com/#!/kissyteam>
- * Blog: <http://kissyui.com/blog/>
-
+ - Google Group: <http://groups.google.com/group/kissy-ui>
